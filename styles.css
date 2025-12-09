@@ -216,12 +216,32 @@ a {
   min-height: 100vh;
 }
 
-.hero-video video {
+.hero-video video,
+.hero-video iframe {
   display: block;
   width: 100%;
   height: 100vh;
   max-height: none;
   object-fit: cover;
+  opacity: 1;
+}
+
+.skip-intro {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #1f2538;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.skip-intro:hover {
+  background: #ffffff;
 }
 
 .hero-video .overlay {
@@ -633,6 +653,11 @@ a {
 
 .splash-dots span {
   display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+  border-radius: 50%;
+  background: #d9480f;
   animation: blink 1s infinite;
 }
 
@@ -669,6 +694,11 @@ a {
   .page-grid {
     grid-template-columns: 120px 1fr 120px;
   }
+
+  .hero-video {
+    height: 80vh;
+    min-height: 80vh;
+  }
 }
 
 @media (max-width: 760px) {
@@ -694,5 +724,10 @@ a {
     margin-left: 0;
     gap: 12px;
     flex-wrap: wrap;
+  }
+
+  .hero-video {
+    height: 70vh;
+    min-height: 70vh;
   }
 }

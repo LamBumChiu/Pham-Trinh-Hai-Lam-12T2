@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lambrando Pizzaioli's | Trang chính</title>
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,8 +14,7 @@
     <div class="splash-card">
       <div class="splash-content">
         <span aria-hidden="true">🍕</span>
-        <span>Pizza của bạn đang trên đường tới đây</span>
-        <span class="splash-dots" aria-hidden="true"><span>.</span><span>.</span><span>.</span></span>
+        <span>Pizza của bạn đang trên đường tới đây <span class="splash-dots" aria-hidden="true"><span>.</span><span>.</span><span>.</span></span></span>
       </div>
     </div>
   </div>
@@ -39,12 +41,13 @@
         <h1>Tôi hướng dẫn bạn mọi thứ về làm pizza</h1>
         <p>Tất cả mọi thứ đề có thể làm được tại nhà</p>
       </div>
+      <button class="skip-intro" type="button">Bỏ qua intro</button>
     </div>
   </section>
   <div class="page-grid">
             <aside class="sidebar">
       <h4>Quảng cáo</h4>
-      <img src="assets/bunbohue.svg" alt="Khung quảng cáo trái">
+      <img src="assets/download.jpeg" alt="Khung quảng cáo trái">
       <div class="content-block">
         <strong>Bún bò Huế</strong>
         <p class="muted">Tô đặc biệt: nước dùng xương, chả bò, huyết; giao nóng.</p>
@@ -153,8 +156,24 @@
         const splash = document.getElementById('splash');
         if (splash) splash.style.display = 'none';
         document.body.classList.remove('preload');
-      }, 1500);
+      }, 1200);
     });
+
+    (function () {
+      const skipBtn = document.querySelector('.skip-intro');
+      const heroVideo = document.querySelector('.hero-video video');
+      const header = document.querySelector('.header-floating');
+      if (!skipBtn || !heroVideo) return;
+      skipBtn.addEventListener('click', () => {
+        heroVideo.pause();
+        const target = document.querySelector('.page-grid');
+        if (header) header.classList.add('header-visible');
+        if (target) {
+          const top = target.getBoundingClientRect().top + window.scrollY - 20;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    })();
     // Hiện header sau khi người dùng kéo hết video
     (function () {
       const header = document.querySelector('.header-floating');
@@ -183,5 +202,6 @@
       });
     })();
   </script>
+  <script src="assets/site.js"></script>
 </body>
 </html>
