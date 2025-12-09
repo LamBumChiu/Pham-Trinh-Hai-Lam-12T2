@@ -1,0 +1,22 @@
+<svg width="360" height="260" viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pizza sáng tạo</title>
+  <desc id="desc">Pizza với hình dạng độc lạ</desc>
+  <rect x="0" y="0" width="360" height="260" rx="24" fill="#0d1a1d"/>
+  <g transform="translate(36,40)">
+    <path d="M140 0 Q200 20 240 80 Q200 140 140 160 Q80 140 40 80 Q80 20 140 0 Z" fill="#ffce7a" stroke="#ff8a3d" stroke-width="10"/>
+    <g fill="#ffe8c7">
+      <circle cx="140" cy="60" r="14"/>
+      <circle cx="100" cy="90" r="12"/>
+      <circle cx="180" cy="100" r="13"/>
+    </g>
+    <g fill="#36b86b">
+      <ellipse cx="120" cy="70" rx="12" ry="8"/>
+      <ellipse cx="170" cy="80" rx="14" ry="9"/>
+    </g>
+    <g fill="#d9533f">
+      <circle cx="140" cy="110" r="9"/>
+      <circle cx="160" cy="130" r="8"/>
+    </g>
+  </g>
+  <text x="180" y="230" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#f7f9ff">Odd Cuts</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="180" height="480" viewBox="0 0 180 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Quảng cáo trái</title>
+  <desc id="desc">Không gian quảng cáo bên trái</desc>
+  <defs>
+    <linearGradient id="gl" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f4d70"/>
+      <stop offset="100%" stop-color="#0f2538"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="180" height="480" rx="18" fill="url(#gl)"/>
+  <g transform="translate(20,40)">
+    <rect x="0" y="0" width="140" height="160" rx="16" fill="#ffe7c4" stroke="#ff8a3d" stroke-width="4"/>
+    <text x="70" y="80" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="20" fill="#1c2133" font-weight="700">Deal</text>
+    <text x="70" y="110" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="14" fill="#d9533f">2 pizza -10%</text>
+  </g>
+  <circle cx="90" cy="290" r="62" fill="#ff8a3d" stroke="#ffe7c4" stroke-width="8"/>
+  <text x="90" y="295" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="22" fill="#10131f" font-weight="800">Lambrando</text>
+  <text x="90" y="325" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="18" fill="#10131f">Delivery</text>
+  <text x="90" y="360" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="14" fill="#f7f9ff">Gọi: 1900-6868</text>
+</svg>

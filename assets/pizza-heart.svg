@@ -1,0 +1,18 @@
+<svg width="360" height="260" viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pizza hình trái tim</title>
+  <desc id="desc">Pizza trái tim cho dịp đặc biệt</desc>
+  <rect x="0" y="0" width="360" height="260" rx="24" fill="#1a0e18"/>
+  <g transform="translate(60,28)">
+    <path d="M120 32 C110 0 60 0 60 52 C60 96 120 140 120 140 C120 140 180 96 180 52 C180 0 130 0 120 32 Z" fill="#ffce7a" stroke="#ff8a3d" stroke-width="8"/>
+    <g fill="#d9533f">
+      <circle cx="110" cy="70" r="10"/>
+      <circle cx="90" cy="90" r="9"/>
+      <circle cx="140" cy="90" r="9"/>
+    </g>
+    <g fill="#36b86b">
+      <ellipse cx="120" cy="70" rx="12" ry="7"/>
+      <ellipse cx="130" cy="110" rx="10" ry="6"/>
+    </g>
+  </g>
+  <text x="180" y="230" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#f7f9ff">Heart Bake</text>
+</svg>

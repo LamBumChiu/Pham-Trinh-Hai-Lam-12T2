@@ -1,0 +1,22 @@
+<svg width="180" height="480" viewBox="0 0 180 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Quảng cáo phải</title>
+  <desc id="desc">Không gian quảng cáo bên phải</desc>
+  <defs>
+    <linearGradient id="gr" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b1d5c"/>
+      <stop offset="100%" stop-color="#0f162d"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="180" height="480" rx="18" fill="url(#gr)"/>
+  <g transform="translate(20,36)">
+    <rect x="0" y="0" width="140" height="120" rx="18" fill="#f7f9ff" stroke="#8ed1ff" stroke-width="4"/>
+    <text x="70" y="50" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="18" fill="#1c2133" font-weight="700">Combo</text>
+    <text x="70" y="78" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="13" fill="#3b1d5c">Family Feast</text>
+    <text x="70" y="98" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="12" fill="#3b1d5c">3 pizza + 1 nước</text>
+  </g>
+  <path d="M32 230 Q90 170 148 230" fill="none" stroke="#8ed1ff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="90" cy="235" r="52" fill="#ffce3a" stroke="#10131f" stroke-width="6"/>
+  <text x="90" y="240" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="28" fill="#10131f" font-weight="800">-20%</text>
+  <text x="90" y="270" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="14" fill="#1c2133">trong tuần</text>
+  <text x="90" y="340" text-anchor="middle" font-family="'Montserrat','Segoe UI',sans-serif" font-size="13" fill="#f7f9ff">Nhập code: HAILAM</text>
+</svg>
